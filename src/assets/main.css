@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: auto;
+}
+
+:root {
+  --headers: 'Playfair Display', serif;
+  --text: 'Noto Sans', sans-serif;
+  --headers-color: #fdb64e;
+  --colors: #313131;
+  --decoration-colors: #ffdb6e;
+  --element-colors: #f0982a;
+  --light: #fcfeff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headers);
+}
+p,
+label,
+li,
+input,
+textarea {
+  font-family: var(--text);
+}
+p {
+  font-size: 1.2rem;
+}
+
+a,
+li,
+button {
+  text-decoration: none;
+}
+
+/* Header y Hero */
+.header {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  height: 900px;
+  background-image: url(../images/altoretrato_van_gogh.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: #313131 2px solid;
+}
+.header-nav {
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.5s ease;
+  border-bottom: #313131 solid 2px;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  position: sticky;
+  top: 1%;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  height: auto;
+  border-radius: 50px;
+  padding: 0 2rem;
+  border-bottom: none;
+}
+.header,
+.contenedor {
+  position: relative;
+  z-index: 1;
+}
+.logo {
+  font-size: 3rem;
+  color: var(--element-colors);
+  &:hover {
+    color: var(--decoration-colors);
+    transition: 0.5s all;
+  }
+}
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--light);
+  font-weight: 500;
+}
+.title {
+  font-size: 3rem;
+  color: var(--headers-color);
+  font-weight: 600;
+}
+.subtitle-inform {
+  font-size: 1.2rem;
+  color: var(--light);
+}
+
+.img-position {
+  display: none;
+}
+.moveright,
+.moveleft {
+  font-family: var(--headers);
+  display: none;
+}
+
+.inform-move {
+  font-size: 1.2rem;
+  color: var(--colors);
+}
+
+/* Secciones de Movimientos */
+
+.card-realismo {
+  background-color: var(--element-colors);
+  width: 100%;
+  color: var(--light);
+  max-height: 600px;
+  max-width: 550px;
+}
+.card-realismo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--headers);
+}
+.card-realismo span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--headers);
+}
+.deco-line {
+  width: 40%;
+  height: 2px;
+  background-color: var(--light);
+}
+
+.decor-line {
+  width: calc(100% - 10px);
+  height: 2px;
+  background-color: var(--colors);
+}
+
+.decor-line-dos {
+  width: calc(100% - 10px);
+  height: 1px;
+  background-color: white;
+}
+
+.title-dos {
+  font-size: 2.5rem;
+  color: var(--element-colors);
+  font-weight: 600;
+}
+
+/* Formulario */
+.form-select {
+  background: var(--element-colors);
+  color: var(--light);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-outline-info {
+  background-color: transparent !important;
+  color: #313131;
+  transition: all 0.6s;
+  &:hover {
+    background-color: #02e5fa !important;
+    color: var(--colors);
+  }
+}
+
+@media (min-width: 1080px) {
+  .header {
+    background-image: none;
+    background-color: transparent;
+  }
+  .subtitle,
+  .subtitle-inform {
+    color: var(--colors);
+  }
+  .contenedor {
+    width: 35%;
+    margin-left: 5rem;
+    z-index: 1;
+  }
+  .img-position {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 0;
+  }
+  .moveright {
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: -18%;
+    z-index: 0;
+    rotate: -90deg;
+    font-size: 5rem;
+    color: var(--decoration-colors);
+  }
+  .moveleft {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    z-index: 0;
+    rotate: -90deg;
+    font-size: 5rem;
+    color: var(--decoration-colors);
+  }
+  .linea-deco-md {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 90%;
+    height: 2px;
+    background-color: var(--colors);
+  }
+  .linea-deco {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--colors);
+  }
+}
+@media (min-width: 1200px) {
+  .moveleft {
+    left: -18%;
+  }
+  .moveright {
+    right: -15%;
+  }
+}
+@media (min-width: 1480px) {
+  .moveleft {
+    left: -13%;
+  }
+  .moveright {
+    right: -12%;
+  }
+}
+@media (min-width: 1900px) {
+  .moveleft {
+    left: 0%;
+  }
+  .moveright {
+    right: -8%;
+  }
+}
+@media (min-width: 2100px) {
+  .img-position {
+    right: 21%;
+  }
+  .moveleft {
+    left: 5%;
+  }
+  .moveright {
+    right: 5%;
+  }
+}
+
+/* ANIMACIÖN */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animated {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+/* Utilitários com delays */
+.fade-in-up {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.fade-in-down {
+  animation: fadeInDown 1s ease forwards;
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+.delay-2 {
+  animation-delay: 0.6s;
+}
+.delay-3 {
+  animation-delay: 0.9s;
+}
+.delay-4 {
+  animation-delay: 1.2s;
+}
+.delay-5 {
+  animation-delay: 1.5s;
+}
+.delay-6 {
+  animation-delay: 1.8s;
+}

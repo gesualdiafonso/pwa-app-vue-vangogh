@@ -1,0 +1,24 @@
+{
+  "name": "Van Gogh App",
+  "theme_color": "#fcfeff",
+  "background_color": "#fff",
+  "short_name": "VGA",
+  "start_url": "/",
+  "description": "Van Gogh una apll que muestra cual retrato retrata tu alma.",
+  "lang": "es",
+  "display": "standalone",
+  "dir": "auto",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/images/iconos/VanGoghApp512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/iconos/VanGoghApp192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
