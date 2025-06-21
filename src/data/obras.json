@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Amendoeiro en Flor",
         "portada": "Una pintura de 1890 de Van Gogh, siendo una obra de despertar vibracional Amendoeiro en Flor",
-        "image": "/public/images/artes/amendoeiro_flor.jpg",
+        "image": "/images/artes/amendoeiro_flor.jpg",
         "descriptUno": "Esta obra representa el despertar emocional. Las flores del almendro estallan en suaves colores, reflejando una delicada esperanza tras un largo invierno interior. Van Gogh expresa aquí su búsqueda de renovación, un grito silencioso de ligereza y reconexión con la vida.",
         "descriptDos": "Artísticamente, Van Gogh abandona el peso del dolor para adoptar un estilo más etéreo y sensible. Las suaves pinceladas y la paleta clara revelan su deseo de proteger la frágil belleza del mundo, como si cada flor fuera un alma a punto de florecer.",
         "reflection": "Tú también estás floreciendo, quizás en silencio, pero con una fuerza que conmueve a cualquiera que observe con el corazón abierto."
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "El dormitorio de Arlés",
         "portada": "El cuarto de Van Gogh en Arles (Su habitación cuando vivía en Arles), una pintura de 1888",
-        "image": "/public/images/artes/dormitorio_arles.jpg",
+        "image": "/images/artes/dormitorio_arles.jpg",
         "descriptUno": "Este cuadro es un abrazo nostálgico. El dormitorio de Van Gogh no es sólo un espacio físico, sino un refugio mental donde descansan sus emociones más íntimas, un hogar en medio del caos interno.",
         "descriptDos": "Artísticamente, el uso de líneas simplificadas y colores primarios crea una armonía disonante, como si el propio entorno susurrara recuerdos. Aquí el arte no se observa desde fuera, sino que se experimenta desde dentro.",
         "reflection": "Llevas un universo en tu espacio personal, y quizá sea ahí donde florecen tus emociones más verdaderas."
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Los Girasoles",
         "portada": "Una serie de pinturas al óleo creada en 1889, en Arlés, Fracia, cuadro con Girasoles en un Jarrón",
-        "image": "../public/images/artes/girasoles.jpg",
+        "image": "/images/artes/girasoles.jpg",
         "descriptUno": "Esta serie es pura calidez emocional. Los girasoles no son sólo flores: son llamas que simbolizan la amistad, el anhelo y la intensidad de estar vivo. Van Gogh ofrece aquí una oda al ciclo de la vida: del brillo a la decadencia.",
         "descriptDos": "Su técnica vigorosa, casi impaciente, muestra su deseo de eternizar lo efímero. El girasol, tan sencillo, se eleva a símbolo de pasión artística y conexión espiritual con el mundo natural.",
         "reflection": "Usted tiene adentro de si un sol que, aún en los días más nublados, sigue en busca de una luz que lo ilumine. Su esencia es un reflejo de la belleza que encuentra en lo cotidiano."
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "La Noche Estrellada",
         "portada": "Una obra de 1889, retratando la vista de la Ventana de su cuarto del Hospício de Sain-Rémy-de_provence, Francia, antes del amanecer",
-        "image": "/public/images/artes/noche_estrellada.jpg",
+        "image": "/images/artes/noche_estrellada.jpg",
         "descriptUno": "Esta obra es un grito silencioso. Un torbellino emocional capturado en el cielo, donde las estrellas giran como pensamientos ansiosos. Van Gogh pintó esta visión no como la realidad, sino como sentía el mundo: inmenso, vibrante, casi en trance.",
         "descriptDos": "Desde el punto de vista estético, las espirales y los intensos contrastes representan su inestabilidad creativa y su genio. Un cosmos interior proyectado al exterior: el caos en forma de belleza.",
         "reflection": "Usted también tiene un universo vibrando adentro de si, y tal vez, el caos que siente sea apenas creatividad intentando encontrar una salida."
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "La Terraza del Café por la Noche",
         "portada": "Una terraza de Café por Place du Forum, Arles, a la Noche, es una obra del pintor, de 1888",
-        "image": "/public/images/artes/Terraza_cafe_noche.jpg",
+        "image": "/images/artes/Terraza_cafe_noche.jpg",
         "descriptUno": "Este cuadro evoca una mezcla de soledad y encanto. Es la mirada de un observador nocturno que encuentra poesía en las calles tranquilas de una ciudad que duerme pero respira historia y emoción.",
         "descriptDos": "Esta pintura evoca una mistura de soledad y encanto. Es la mirada de un observador noturno que encuentra poesia en las calles tranquilas de una ciudad que duerme, pero respira historia e emoción.",
         "reflection": "Usted está hecho de contrastes, entre la luz que se ofrece y el silencio que carga con una belleza unica. La noche es su aliada, y en ella encuentra la paz que el día no le ofrece."
@@ -48,7 +48,7 @@
         "id": 6,
         "name": "Puente de Langlois",
         "portada": "Un puente de viga dubpla en Arles, Francia, siendo un objeto de su pintura, datada en 1888.",
-        "image": "/public/images/artes/ponte_langlois.jpg",
+        "image": "/images/artes/ponte_langlois.jpg",
         "descriptUno": "Esta obra transmite una estructura emocional. El puente representado por Van Gogh conecta algo más que orillas: conecta momentos de la vida, recuerdos de sencillez, de movimiento, de paso.",
         "descriptDos": "Con líneas geométricas y una paleta tranquila, crea un símbolo de transición, de cruce entre mundos internos. Es el gesto del artista intentando comprender el tiempo que transcurre entre certezas y ausencias.",
         "reflection": "Usted es un puente entre lo que se siente y lo que se transforma. Cada paso que está a punto de dar es una obra de arte en constante movimiento, una expresión de cambio y vida."
